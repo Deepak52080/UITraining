@@ -1,0 +1,51 @@
+/* h2 {
+            color: red;
+        } */
+
+        /* .tabcolor{
+            color: orange;
+
+        } */
+
+        .box-title{
+            color: red;
+            border: 2px solid red;
+            width: 200px;
+            background-color: white;
+            
+        }
+
+        .box-content{
+            color: aqua;
+            background-color: black;
+            width: 200px;
+            border: 2px solid red;
+            font-weight: 500;
+            
+        }
+
+        .mainBox{
+            float: left;
+            padding: 15px;
+            margin: 20px;
+        }
+
+        th{
+            background-color: aqua;
+            font-size: medium;
+        }
+        tr:nth-child(even){
+            background-color: bisque;
+        }
+
+        tr:nth-child(odd){
+            background-color: aquamarine;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        td, tr {
+            border: 2px solid;
+        }
