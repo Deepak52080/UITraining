@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Welcome to HTML5</title>
+    <script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+            id="sap-ui-bootstrap"
+            data-sap-ui-libs="sap.m"
+            data-sap-ui-theme="sap_bluecrystal">
+
+
+    </script>
+    <script>
+
+        var oButton = new sap.m.Button({
+            text: "Welcome to First SAP UI5 Control",
+            icon: "sap-icon://attachment",
+            type: "Critical"
+        });
+
+        oButton.placeAt("content");
+
+    </script>
+    
+</head>
+<body class="sapUiBody">
+  <div id="content"></div>
+</body>
+</html>
